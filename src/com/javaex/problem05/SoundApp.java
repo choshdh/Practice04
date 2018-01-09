@@ -11,6 +11,15 @@ public class SoundApp {
 
     public static void printSound( Soundable soundable ) {
         //구현
+    	if(soundable instanceof Cat) {
+    		System.out.println(((Cat)soundable).sound());
+    	}else if(soundable instanceof Dog){
+    		System.out.println(((Dog)soundable).sound());
+    	}else if(soundable instanceof Sparrow) {
+    		System.out.println(((Sparrow)soundable).sound());
+    	}else if(soundable instanceof Duck){
+    		System.out.println(((Duck)soundable).sound());
+    	}
     }
     
 }
