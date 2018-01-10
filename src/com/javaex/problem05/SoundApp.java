@@ -9,6 +9,7 @@ public class SoundApp {
         printSound( new Duck() );
     }
 
+    //매개 변수로 받아온 인자의 인스턴스를 확인하여 다운 캐스팅시켜 오버라이딩 된 함수가 호출될수 있도록 설계 그래야만 각자 다른 sound()를 낼 수있다.
     public static void printSound( Soundable soundable ) {
         //구현
     	if(soundable instanceof Cat) {

@@ -2,6 +2,7 @@ package com.javaex.problem03;
 
 public class SmartPhone extends MusicPhone {
     
+	//부모가 가진 메소드 오버라이딩
     public void execute(String str){
         if(str.equals("앱")) {
         	playApp();
@@ -10,12 +11,11 @@ public class SmartPhone extends MusicPhone {
         }else {
         	super.execute(str);
         }
-        //코드작성
-        
     }
 
     
     //메소드작성
+    //부모가 가진 메소드 오버라이딩
 	@Override
 	protected void playMusic() {
 		// TODO Auto-generated method stub
@@ -24,6 +24,7 @@ public class SmartPhone extends MusicPhone {
  
     
 	//메소드작성
+	//새로운 메소드 생성
 	public void playApp() {
 		System.out.println("앱실행");
 	}
