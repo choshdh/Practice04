@@ -8,7 +8,7 @@ public abstract class Bird { //1.추상 메소드가 하나라도 존재할시 �
     public abstract void sing(); //함수가 해야할 기능의 이름만 정의 해놓은 추상 메소드
     public abstract void showName(); //함수가 해야할 기능의 이름만 정의 해놓은 추상 메소드
 
-	public String getName() {
+	protected String getName() {
 		return name;
 	}
 
