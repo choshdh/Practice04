@@ -4,6 +4,7 @@ public class MyBase extends Base{
 
 
     //코드작성
+	//메소드 오버라이딩
 	@Override
 	public void service(String state) {
 		// TODO Auto-generated method stub
